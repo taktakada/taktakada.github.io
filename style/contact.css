@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+.txt {
+	font-size: 16px;
+	text-align: center;
+	margin: 10px auto 30px;
+}
+
+.attention {
+	text-align: right;
+}
+
+
+/* ------------------------------
+ form
+------------------------------ */
+
+table.inputform {
+	width: 100%;
+	margin: 0 0 10px 0;
+}
+table.inputform th {
+	text-align: left;
+	white-space: nowrap;
+	font-weight: normal;
+	vertical-align: middle;
+	line-height: 1.4;
+}
+table.inputform td {
+	text-align: left;
+}
+table.inputform th,
+table.inputform td {
+	padding: 20px 0 20px 10px;
+}
+table.inputform td .td {
+	width: 100%;
+}
+table.inputform input,
+table.inputform textarea {
+	padding: 10px;
+	vertical-align: middle;
+	border: 1px solid #DDDDDD;
+	width: 510px;
+}
+table.inputform input[type=radio] {
+	vertical-align: middle;
+}
+select {
+	padding: 1px;
+	vertical-align: middle;
+	margin-bottom: 8px;
+}
+table.inputform #address1 {
+	margin-bottom: 8px;
+}
+table.inputform input.noborder {
+	border: none;
+}
+table.inputform ul.float li {
+	float: left;
+	margin-right: 10px;
+}
+.notes {
+	text-align: left;
+	margin-top: 15px;
+	clear: both;
+	color: #666;
+	font-size: 11px;
+}
+.mark {
+	color: #C00;
+	padding: 0px 6px;
+}
+.mfp_err {
+	clear: both;
+}
+.notice {
+	margin-bottom: 5px;
+}
+
+textarea {
+	resize: none; 
+	width: 528px;
+}
+
+/* ---------- label ---------- */
+
+form#mailformpro label.mfp_checked {
+	padding: 4px 8px 4px 5px;
+	background-color: #FFF5CE;
+	border: #FF934A 1px solid;
+}
+form#mailformpro label.mfp_not_checked {
+	padding: 4px 8px 4px 5px;
+	border: #eee 1px solid;
+}
+
+
+/* ---------- button ---------- */
+
+.center{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.center button{
+	padding:10px 20px;
+	width:120px;
+	font-size:16px;
+	border:1px solid #999;
+	background-color:#ccc;
+	margin:0 50px;
+	transition:0.2s;
+}
+.center button:hover{
+	cursor:pointer;
+	background-color:#ddd;
+}
+
+/* ---------- confirm.css ---------- */
+
+div#mfp_overlay h4 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #F28E13;
+	padding: 10px 0px 4px 0px;
+	text-align: center;
+}
+.mfp_buttons {
+	margin-top: 20px;
+}
+div.mfp_buttons button {
+	width: 160px;
+	padding: 4px 10px;
+	border: 1px solid #FFFFFF;
+	height: auto!important;
+	color: #FFFFFF;
+	font-size: 18px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 0 6px #666;
+	-moz-box-shadow: 0 0 6px #666;
+	box-shadow: 0 0 6px #666;
+	cursor: pointer;
+	font-family: inherit;
+	margin: 0 10px;
+	text-align: center;
+}
+table#mfp_confirm_table tr.mfp_colored {
+	background-color: #F6F6F6;
+}
+table#mfp_confirm_table tr.mfp_achroma {
+	background-color: #FFF;
+}
+
+div.mfp_buttons button#mfp_button_send {
+	background-color: #84BE67;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#84BE67), to(#599744));
+	background-image: -webkit-linear-gradient(top, #84BE67, #599744);
+	background-image: -moz-linear-gradient(top, #84BE67, #599744);
+	background-image: -ms-linear-gradient(top, #84BE67, #599744);
+	background-image: linear-gradient(top, #84BE67, #599744);
+	font-weight: bold;
+}
+div.mfp_buttons button#mfp_button_cancel {
+	background-color: #AAA;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#aaa), to(#ccc));
+	background-image: -webkit-linear-gradient(top, #aaa, #ccc);
+	background-image: -moz-linear-gradient(top, #aaa, #ccc);
+	background-image: -ms-linear-gradient(top, #aaa, #ccc);
+	background-image: linear-gradient(top, #aaa, #ccc);
+}
+div.mfp_buttons button:hover {
+	background-position: left bottom;
+}
+
+/* ------------------------------
+ thanks
+------------------------------ */
+
+.thanks p {
+	font-family: "繝｡繧､繝ｪ繧ｪ", Meiryo, Verdana, "繝偵Λ繧ｮ繝手ｧ偵ざ Pro W3", "�ｭ�ｳ �ｰ繧ｴ繧ｷ繝�け", Arial, sans-serif;
+}
+.thanks p.tel {
+	width: 700px;
+	margin: 10px auto 20px;
+}
