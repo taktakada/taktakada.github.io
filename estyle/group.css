@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+#main {
+	width: 660px;
+}
+
+#main .member {
+	width: 650px;
+	margin: 30px 0;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #dddddd;
+}
+#main .member.last {
+	border-bottom: none;
+}
+#main .member .name {
+	width: 160px;
+	margin-right: 20px;
+	float: left;
+	letter-spacing: 2px;
+}
+#main .member .name p {
+	font-size: 16px;
+	font-family: "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "游明朝", "YuMincho", "HGS明朝B", "ＭＳ Ｐ明朝", serif;
+	text-align: center;
+	margin-top: 5px;
+}
+#main .member .name p span {
+	font-size: 12px;
+	display: inline-block;
+	margin-right: 10px;
+}
+#main .member .fl {
+	float: left;
+}
+#main .member .fl .item {
+	font-size: 16px;
+	font-family: "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "游明朝", "YuMincho", "HGS明朝B", "ＭＳ Ｐ明朝", serif;
+	margin: 10px 0 10px;
+}
+#main .member .fl .item span {
+	color: #9AC300;
+	display: inline-block;
+	margin-right: 5px;
+	font-size: 14px;
+}
+#main .member .fr {
+	float: right;
+	width: 460px;
+}
+#main .member .fr .fl {
+	margin-right: 40px;
+}
+#main .member .introduction {
+	background-image: linear-gradient(
+    -45deg,
+    #EEEEEE 25%,
+    #EBEBEB 25%, #EBEBEB 50%,
+    #EEEEEE 50%, #EEEEEE 75%,
+    #EBEBEB 75%, #EBEBEB
+  );
+	background-size: 8px 8px;
+	padding: 10px;
+	font-size: 12px;
+	float: left;
+	margin-top: 10px;
+}
+#main .member .introduction p {
+	font-size: 12px;
+	
+}
+#main .member .introduction .link {
+	text-align: center;
+	padding: 90px 0;
+}
+#main .member .introduction .link a {
+	font-size: 12px;
+	text-align: center;
+	
+}
+#main .member .introduction .about {
+	font-size: 14px;
+	font-family: "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "游明朝", "YuMincho", "HGS明朝B", "ＭＳ Ｐ明朝", serif;
+	text-align: center;
+	border-bottom: 1px solid #B4B4B4;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+#main .member .introduction .under_construction {
+	border:none;
+	font-weight:normal;
+	text-align: center;
+	font-size: 14px;
+	padding: 30px 0;
+	width: 650px;
+}
+
+.graduate {
+	width: 650px;
+	margin: 10px 0 15px;
+}
+.graduate.mt20 {
+	margin-top: 20px;
+}
+.graduate p {
+	display: inline-block;
+}
+.graduate span.circle {
+	display: inline-block;
+	color: #9AC300;
+	margin-right:3px;
+}
+.graduate p.name {
+	font-size: 13px;
+	width: 400px;
+}
+.graduate p.name span {
+	font-size: 13px;
+}
+.graduate p.thema {
+	background: #EEEEEE;
+	padding: 1px 1px;
+	margin-right: 1px;
+	font-size: 10px;
+}
+.graduate p.paper {
+	font-size: 13px;
+	width: 650px;
+	margin-left: 15px;
+}
+
+.small {
+	font-size: 11px;
+	display: block;
+}

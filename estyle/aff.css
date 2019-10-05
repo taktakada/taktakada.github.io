@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.txt {
+	width: 590px;
+	margin: 30px auto 0;
+}
+
+.txt2 {
+	width: 590px;
+	margin: 30px auto 20px;
+	border-top: 1px dashed #DDDDDD;
+	padding-top: 20px;
+}

@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+#main {
+	width: 660px;
+}
+
+.mb30 {
+	margin-bottom: 30px;
+}
+
+.txt {
+	width: 620px;
+	margin: 30px auto 0;
+}
+
+.txt2 {
+	width: 590px;
+	margin: 30px auto 20px;
+	border-top: 1px dashed #DDDDDD;
+	padding-top: 20px;
+}
+
+h3{
+	margin-top: 20px;
+	margin-left:20px;
+	font-size: 18px;
+}
+
+ul.list {
+	width: 620px;
+	margin: 10px auto 0;
+}
+ul.list li {
+	list-style-type:disc;
+	margin-left: 20px;
+	margin-bottom:10px;
+}
+ul.list li:last-child {
+	margin-bottom:30px;
+}
+
+figure.gazo-box {
+float: left;
+text-align: center;
+margin: 20px 20px  15px 20px;
+width:120px;
+}
+
+h2 {
+clear: both;
+}

@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+#main {
+	width: 660px;
+}
+
+#main ul {
+	margin-left: 5px;
+	margin-top: 40px;
+}
+#main li {
+	margin-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px dashed #ddd;
+}
+#main li span.day {
+	display: inline-block;
+	margin-right: 20px;
+	font-size: 13px;
+}
+#main li span.type {
+	display: inline-block;
+	margin-right: 20px;
+	color: white;
+	padding: 1px 0;
+	width: 72px;
+	text-align: center;
+	font-size: 13px;
+}
+#main li span.type.seminar {
+	background-color: #4F9700;
+}
+#main li span.type.other {
+	background-color: #664C00;
+}
+#main li span.type.on_campus {
+	background-color: #D96D00;
+}
+#main li span.txt {
+	float: right;
+	width: 465px;
+	font-size: 13px;
+	line-height: 1.5;
+}
+#main li span.txt a {
+	width: 465px;
+	display: inline-block;
+	padding-top: 3px;
+/*	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	vertical-align:middle;*/
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+
